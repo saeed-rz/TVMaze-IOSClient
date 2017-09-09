@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FD43AF6AE91612D8ADC3ACB /* libPods-TvMazeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D141E3BE70A92D2048403E /* libPods-TvMazeTests.a */; };
+		22166A0B9E692F08CB66B2D1 /* libPods-TvMazeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6951E1CB563B1F0BEF070100 /* libPods-TvMazeUITests.a */; };
+		3014DD311F63FAD30065424B /* NetworkInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD301F63FAD30065424B /* NetworkInterface.m */; };
+		3014DD341F63FBDC0065424B /* UtilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD331F63FBDC0065424B /* UtilityManager.m */; };
+		3014DD371F6405850065424B /* GetAllShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD361F6405850065424B /* GetAllShow.m */; };
+		3014DD3B1F6406C60065424B /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD3A1F6406C60065424B /* DatabaseManager.m */; };
+		3014DD3E1F64071F0065424B /* DatabaseInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD3D1F64071F0065424B /* DatabaseInterface.m */; };
+		3014DD411F64074C0065424B /* TvMaze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD3F1F64074C0065424B /* TvMaze.xcdatamodeld */; };
+		3014DD431F6407C40065424B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3014DD421F6407C40065424B /* CoreData.framework */; };
+		3014DD4E1F640BB70065424B /* ShowDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD4D1F640BB70065424B /* ShowDBManager.m */; };
+		3014DD5D1F640EE90065424B /* GenreDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD5C1F640EE90065424B /* GenreDBManager.m */; };
+		3014DD611F6424BA0065424B /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD601F6424BA0065424B /* MovieTableViewCell.m */; };
+		3014DD701F6445D30065424B /* NowPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD6F1F6445D30065424B /* NowPlayingViewController.m */; };
+		3014DD731F644A630065424B /* GetCastShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD721F644A630065424B /* GetCastShow.m */; };
+		3014DD761F644E870065424B /* GetCrewShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD751F644E870065424B /* GetCrewShow.m */; };
+		3014DD7A1F644ED90065424B /* CrewDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD791F644ED90065424B /* CrewDBManager.m */; };
+		3014DD7D1F6465310065424B /* CastDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD7C1F6465310065424B /* CastDBManager.m */; };
+		3014DD801F6470280065424B /* NowPlayingInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD7F1F6470280065424B /* NowPlayingInfoViewController.m */; };
+		3014DD831F647A7D0065424B /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014DD821F647A7D0065424B /* InfoViewController.m */; };
 		30FA2E661F63CF1D009D6C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA2E651F63CF1D009D6C38 /* main.m */; };
 		30FA2E691F63CF1D009D6C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA2E681F63CF1D009D6C38 /* AppDelegate.m */; };
 		30FA2E6C1F63CF1D009D6C38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA2E6B1F63CF1D009D6C38 /* ViewController.m */; };
@@ -15,6 +34,11 @@
 		30FA2E741F63CF1D009D6C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FA2E721F63CF1D009D6C38 /* LaunchScreen.storyboard */; };
 		30FA2E7F1F63CF1D009D6C38 /* TvMazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA2E7E1F63CF1D009D6C38 /* TvMazeTests.m */; };
 		30FA2E8A1F63CF1D009D6C38 /* TvMazeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA2E891F63CF1D009D6C38 /* TvMazeUITests.m */; };
+		30FA2E9B1F63D73A009D6C38 /* MovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA2E9A1F63D73A009D6C38 /* MovieListViewController.m */; };
+		30FA2E9E1F63D773009D6C38 /* CategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA2E9D1F63D773009D6C38 /* CategoryListViewController.m */; };
+		30FA2EA41F63D9D1009D6C38 /* HeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA2EA31F63D9D1009D6C38 /* HeaderViewController.m */; };
+		30FA2EA71F63F1C0009D6C38 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA2EA61F63F1C0009D6C38 /* ViewPagerController.m */; };
+		3FBB4A61700F08D0C13B40E0 /* libPods-TvMaze.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E04DC56107C8A12780DF4C /* libPods-TvMaze.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +59,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16CE9EEDA378091A3906A9D5 /* Pods-TvMaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMaze.release.xcconfig"; path = "Pods/Target Support Files/Pods-TvMaze/Pods-TvMaze.release.xcconfig"; sourceTree = "<group>"; };
+		16D141E3BE70A92D2048403E /* libPods-TvMazeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TvMazeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7402C2EF90284C5D3A0E47 /* Pods-TvMazeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMazeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TvMazeUITests/Pods-TvMazeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2490FDDC7591E2E93364AC38 /* Pods-TvMazeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMazeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TvMazeTests/Pods-TvMazeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3014DD2F1F63FAD30065424B /* NetworkInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkInterface.h; sourceTree = "<group>"; };
+		3014DD301F63FAD30065424B /* NetworkInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkInterface.m; sourceTree = "<group>"; };
+		3014DD321F63FBDC0065424B /* UtilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityManager.h; sourceTree = "<group>"; };
+		3014DD331F63FBDC0065424B /* UtilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityManager.m; sourceTree = "<group>"; };
+		3014DD351F6405850065424B /* GetAllShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAllShow.h; sourceTree = "<group>"; };
+		3014DD361F6405850065424B /* GetAllShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAllShow.m; sourceTree = "<group>"; };
+		3014DD381F64062B0065424B /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		3014DD391F6406C60065424B /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		3014DD3A1F6406C60065424B /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		3014DD3C1F64071F0065424B /* DatabaseInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseInterface.h; sourceTree = "<group>"; };
+		3014DD3D1F64071F0065424B /* DatabaseInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseInterface.m; sourceTree = "<group>"; };
+		3014DD401F64074C0065424B /* TvMaze.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TvMaze.xcdatamodel; sourceTree = "<group>"; };
+		3014DD421F6407C40065424B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3014DD4C1F640BB70065424B /* ShowDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDBManager.h; sourceTree = "<group>"; };
+		3014DD4D1F640BB70065424B /* ShowDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDBManager.m; sourceTree = "<group>"; };
+		3014DD5B1F640EE90065424B /* GenreDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenreDBManager.h; sourceTree = "<group>"; };
+		3014DD5C1F640EE90065424B /* GenreDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenreDBManager.m; sourceTree = "<group>"; };
+		3014DD5E1F641BD20065424B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../Global/PrefixHeader.pch; sourceTree = "<group>"; };
+		3014DD5F1F6424BA0065424B /* MovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableViewCell.h; sourceTree = "<group>"; };
+		3014DD601F6424BA0065424B /* MovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewCell.m; sourceTree = "<group>"; };
+		3014DD6E1F6445D30065424B /* NowPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowPlayingViewController.h; sourceTree = "<group>"; };
+		3014DD6F1F6445D30065424B /* NowPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowPlayingViewController.m; sourceTree = "<group>"; };
+		3014DD711F644A630065424B /* GetCastShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetCastShow.h; sourceTree = "<group>"; };
+		3014DD721F644A630065424B /* GetCastShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetCastShow.m; sourceTree = "<group>"; };
+		3014DD741F644E870065424B /* GetCrewShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetCrewShow.h; sourceTree = "<group>"; };
+		3014DD751F644E870065424B /* GetCrewShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetCrewShow.m; sourceTree = "<group>"; };
+		3014DD781F644ED90065424B /* CrewDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrewDBManager.h; sourceTree = "<group>"; };
+		3014DD791F644ED90065424B /* CrewDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrewDBManager.m; sourceTree = "<group>"; };
+		3014DD7B1F6465310065424B /* CastDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastDBManager.h; sourceTree = "<group>"; };
+		3014DD7C1F6465310065424B /* CastDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastDBManager.m; sourceTree = "<group>"; };
+		3014DD7E1F6470280065424B /* NowPlayingInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowPlayingInfoViewController.h; sourceTree = "<group>"; };
+		3014DD7F1F6470280065424B /* NowPlayingInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowPlayingInfoViewController.m; sourceTree = "<group>"; };
+		3014DD811F647A7D0065424B /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		3014DD821F647A7D0065424B /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		30FA2E611F63CF1D009D6C38 /* TvMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FA2E651F63CF1D009D6C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30FA2E671F63CF1D009D6C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +113,20 @@
 		30FA2E851F63CF1D009D6C38 /* TvMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FA2E891F63CF1D009D6C38 /* TvMazeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TvMazeUITests.m; sourceTree = "<group>"; };
 		30FA2E8B1F63CF1D009D6C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FA2E981F63D5E2009D6C38 /* TvMaze-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TvMaze-Swift.h"; sourceTree = "<group>"; };
+		30FA2E991F63D73A009D6C38 /* MovieListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListViewController.h; sourceTree = "<group>"; };
+		30FA2E9A1F63D73A009D6C38 /* MovieListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListViewController.m; sourceTree = "<group>"; };
+		30FA2E9C1F63D773009D6C38 /* CategoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryListViewController.h; sourceTree = "<group>"; };
+		30FA2E9D1F63D773009D6C38 /* CategoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryListViewController.m; sourceTree = "<group>"; };
+		30FA2EA21F63D9D1009D6C38 /* HeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderViewController.h; sourceTree = "<group>"; };
+		30FA2EA31F63D9D1009D6C38 /* HeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderViewController.m; sourceTree = "<group>"; };
+		30FA2EA51F63F1C0009D6C38 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
+		30FA2EA61F63F1C0009D6C38 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
+		3B4D0D3026E7D9EE2146B2B5 /* Pods-TvMaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMaze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TvMaze/Pods-TvMaze.debug.xcconfig"; sourceTree = "<group>"; };
+		46B16868F3AC511DD5586862 /* Pods-TvMazeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMazeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TvMazeUITests/Pods-TvMazeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6951E1CB563B1F0BEF070100 /* libPods-TvMazeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TvMazeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E04DC56107C8A12780DF4C /* libPods-TvMaze.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TvMaze.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943DA25B44178D68ECCE4A35 /* Pods-TvMazeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMazeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TvMazeTests/Pods-TvMazeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3014DD431F6407C40065424B /* CoreData.framework in Frameworks */,
+				3FBB4A61700F08D0C13B40E0 /* libPods-TvMaze.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD43AF6AE91612D8ADC3ACB /* libPods-TvMazeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22166A0B9E692F08CB66B2D1 /* libPods-TvMazeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +165,8 @@
 				30FA2E7D1F63CF1D009D6C38 /* TvMazeTests */,
 				30FA2E881F63CF1D009D6C38 /* TvMazeUITests */,
 				30FA2E621F63CF1D009D6C38 /* Products */,
+				6B25D987C278E8F7966B8C95 /* Pods */,
+				39554937936B70DA3887A534 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +192,13 @@
 				30FA2E721F63CF1D009D6C38 /* LaunchScreen.storyboard */,
 				30FA2E751F63CF1D009D6C38 /* Info.plist */,
 				30FA2E641F63CF1D009D6C38 /* Supporting Files */,
+				6822EFB8057D3EA4AC8BF8B9 /* Resource */,
+				6822E8C5A141B55EC0B24000 /* MovieList */,
+				6822E8B97E9CAC2B14EB6BDD /* Global */,
+				6822ED5F8C532FC9C35C0AE6 /* Controls */,
+				6822EF19207E9BE8D8F989B3 /* NetworkService */,
+				6822EAA54FFDB1E481D96E6A /* CoreData */,
+				6822EF6EC081808FB385B408 /* NowPlaying */,
 			);
 			path = TvMaze;
 			sourceTree = "<group>";
@@ -140,6 +229,161 @@
 			path = TvMazeUITests;
 			sourceTree = "<group>";
 		};
+		39554937936B70DA3887A534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3014DD421F6407C40065424B /* CoreData.framework */,
+				76E04DC56107C8A12780DF4C /* libPods-TvMaze.a */,
+				16D141E3BE70A92D2048403E /* libPods-TvMazeTests.a */,
+				6951E1CB563B1F0BEF070100 /* libPods-TvMazeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6822E67D5D64FFA059C2A544 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3014DD2F1F63FAD30065424B /* NetworkInterface.h */,
+				3014DD301F63FAD30065424B /* NetworkInterface.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6822E8B97E9CAC2B14EB6BDD /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				30FA2EA21F63D9D1009D6C38 /* HeaderViewController.h */,
+				30FA2EA31F63D9D1009D6C38 /* HeaderViewController.m */,
+				3014DD321F63FBDC0065424B /* UtilityManager.h */,
+				3014DD331F63FBDC0065424B /* UtilityManager.m */,
+				3014DD381F64062B0065424B /* Global.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		6822E8C5A141B55EC0B24000 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				30FA2E991F63D73A009D6C38 /* MovieListViewController.h */,
+				30FA2E9A1F63D73A009D6C38 /* MovieListViewController.m */,
+				30FA2E9C1F63D773009D6C38 /* CategoryListViewController.h */,
+				30FA2E9D1F63D773009D6C38 /* CategoryListViewController.m */,
+				3014DD5F1F6424BA0065424B /* MovieTableViewCell.h */,
+				3014DD601F6424BA0065424B /* MovieTableViewCell.m */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		6822E91925AE227CA8399A47 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3014DD351F6405850065424B /* GetAllShow.h */,
+				3014DD361F6405850065424B /* GetAllShow.m */,
+				3014DD711F644A630065424B /* GetCastShow.h */,
+				3014DD721F644A630065424B /* GetCastShow.m */,
+				3014DD741F644E870065424B /* GetCrewShow.h */,
+				3014DD751F644E870065424B /* GetCrewShow.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6822E9CAAC2401864B350EE1 /* ViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				30FA2EA51F63F1C0009D6C38 /* ViewPagerController.h */,
+				30FA2EA61F63F1C0009D6C38 /* ViewPagerController.m */,
+			);
+			path = ViewPager;
+			sourceTree = "<group>";
+		};
+		6822EAA54FFDB1E481D96E6A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3014DD391F6406C60065424B /* DatabaseManager.h */,
+				3014DD3A1F6406C60065424B /* DatabaseManager.m */,
+				3014DD3C1F64071F0065424B /* DatabaseInterface.h */,
+				3014DD3D1F64071F0065424B /* DatabaseInterface.m */,
+				3014DD3F1F64074C0065424B /* TvMaze.xcdatamodeld */,
+				6822ED67B08744C6B35CC65E /* GeneratedEntity */,
+				6822EEF354252970833A490B /* DBManager */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6822ED5F8C532FC9C35C0AE6 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				6822E9CAAC2401864B350EE1 /* ViewPager */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		6822ED67B08744C6B35CC65E /* GeneratedEntity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GeneratedEntity;
+			sourceTree = "<group>";
+		};
+		6822EEF354252970833A490B /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				3014DD4C1F640BB70065424B /* ShowDBManager.h */,
+				3014DD4D1F640BB70065424B /* ShowDBManager.m */,
+				3014DD5B1F640EE90065424B /* GenreDBManager.h */,
+				3014DD5C1F640EE90065424B /* GenreDBManager.m */,
+				3014DD781F644ED90065424B /* CrewDBManager.h */,
+				3014DD791F644ED90065424B /* CrewDBManager.m */,
+				3014DD7B1F6465310065424B /* CastDBManager.h */,
+				3014DD7C1F6465310065424B /* CastDBManager.m */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		6822EF19207E9BE8D8F989B3 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				6822E67D5D64FFA059C2A544 /* Core */,
+				6822E91925AE227CA8399A47 /* Services */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		6822EF6EC081808FB385B408 /* NowPlaying */ = {
+			isa = PBXGroup;
+			children = (
+				3014DD6E1F6445D30065424B /* NowPlayingViewController.h */,
+				3014DD6F1F6445D30065424B /* NowPlayingViewController.m */,
+				3014DD7E1F6470280065424B /* NowPlayingInfoViewController.h */,
+				3014DD7F1F6470280065424B /* NowPlayingInfoViewController.m */,
+				3014DD811F647A7D0065424B /* InfoViewController.h */,
+				3014DD821F647A7D0065424B /* InfoViewController.m */,
+			);
+			path = NowPlaying;
+			sourceTree = "<group>";
+		};
+		6822EFB8057D3EA4AC8BF8B9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3014DD5E1F641BD20065424B /* PrefixHeader.pch */,
+				30FA2E981F63D5E2009D6C38 /* TvMaze-Swift.h */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6B25D987C278E8F7966B8C95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4D0D3026E7D9EE2146B2B5 /* Pods-TvMaze.debug.xcconfig */,
+				16CE9EEDA378091A3906A9D5 /* Pods-TvMaze.release.xcconfig */,
+				943DA25B44178D68ECCE4A35 /* Pods-TvMazeTests.debug.xcconfig */,
+				2490FDDC7591E2E93364AC38 /* Pods-TvMazeTests.release.xcconfig */,
+				46B16868F3AC511DD5586862 /* Pods-TvMazeUITests.debug.xcconfig */,
+				1C7402C2EF90284C5D3A0E47 /* Pods-TvMazeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +391,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30FA2E8E1F63CF1D009D6C38 /* Build configuration list for PBXNativeTarget "TvMaze" */;
 			buildPhases = (
+				9DF17F9226589590077AF569 /* [CP] Check Pods Manifest.lock */,
 				30FA2E5D1F63CF1D009D6C38 /* Sources */,
 				30FA2E5E1F63CF1D009D6C38 /* Frameworks */,
 				30FA2E5F1F63CF1D009D6C38 /* Resources */,
+				A3786ED093DBAA83F42896A9 /* [CP] Embed Pods Frameworks */,
+				639E6087ACC78DD56CB15C91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +411,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30FA2E911F63CF1D009D6C38 /* Build configuration list for PBXNativeTarget "TvMazeTests" */;
 			buildPhases = (
+				A3D01AB7F36478FE19D8EC4A /* [CP] Check Pods Manifest.lock */,
 				30FA2E761F63CF1D009D6C38 /* Sources */,
 				30FA2E771F63CF1D009D6C38 /* Frameworks */,
 				30FA2E781F63CF1D009D6C38 /* Resources */,
+				4C8DB683244002675AE2152A /* [CP] Embed Pods Frameworks */,
+				671781E4D7593ADA4F0E18E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +432,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30FA2E941F63CF1D009D6C38 /* Build configuration list for PBXNativeTarget "TvMazeUITests" */;
 			buildPhases = (
+				F5C0D4D58D2C7030E3D12FD7 /* [CP] Check Pods Manifest.lock */,
 				30FA2E811F63CF1D009D6C38 /* Sources */,
 				30FA2E821F63CF1D009D6C38 /* Frameworks */,
 				30FA2E831F63CF1D009D6C38 /* Resources */,
+				5E854AB343F29A30737A75B4 /* [CP] Embed Pods Frameworks */,
+				6AF4C36A8A25298F3531FF48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +524,184 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C8DB683244002675AE2152A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvMazeTests/Pods-TvMazeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E854AB343F29A30737A75B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvMazeUITests/Pods-TvMazeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		639E6087ACC78DD56CB15C91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvMaze/Pods-TvMaze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		671781E4D7593ADA4F0E18E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvMazeTests/Pods-TvMazeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF4C36A8A25298F3531FF48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvMazeUITests/Pods-TvMazeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF17F9226589590077AF569 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TvMaze-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3786ED093DBAA83F42896A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TvMaze/Pods-TvMaze-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvMaze/Pods-TvMaze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D01AB7F36478FE19D8EC4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TvMazeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C0D4D58D2C7030E3D12FD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TvMazeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30FA2E5D1F63CF1D009D6C38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3014DD801F6470280065424B /* NowPlayingInfoViewController.m in Sources */,
+				3014DD311F63FAD30065424B /* NetworkInterface.m in Sources */,
+				3014DD701F6445D30065424B /* NowPlayingViewController.m in Sources */,
 				30FA2E6C1F63CF1D009D6C38 /* ViewController.m in Sources */,
+				3014DD611F6424BA0065424B /* MovieTableViewCell.m in Sources */,
+				30FA2EA71F63F1C0009D6C38 /* ViewPagerController.m in Sources */,
+				30FA2EA41F63D9D1009D6C38 /* HeaderViewController.m in Sources */,
+				3014DD3E1F64071F0065424B /* DatabaseInterface.m in Sources */,
 				30FA2E691F63CF1D009D6C38 /* AppDelegate.m in Sources */,
+				3014DD7D1F6465310065424B /* CastDBManager.m in Sources */,
+				3014DD371F6405850065424B /* GetAllShow.m in Sources */,
 				30FA2E661F63CF1D009D6C38 /* main.m in Sources */,
+				3014DD831F647A7D0065424B /* InfoViewController.m in Sources */,
+				3014DD341F63FBDC0065424B /* UtilityManager.m in Sources */,
+				3014DD761F644E870065424B /* GetCrewShow.m in Sources */,
+				3014DD4E1F640BB70065424B /* ShowDBManager.m in Sources */,
+				3014DD731F644A630065424B /* GetCastShow.m in Sources */,
+				3014DD5D1F640EE90065424B /* GenreDBManager.m in Sources */,
+				3014DD3B1F6406C60065424B /* DatabaseManager.m in Sources */,
+				3014DD7A1F644ED90065424B /* CrewDBManager.m in Sources */,
+				30FA2E9E1F63D773009D6C38 /* CategoryListViewController.m in Sources */,
+				30FA2E9B1F63D73A009D6C38 /* MovieListViewController.m in Sources */,
+				3014DD411F64074C0065424B /* TvMaze.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +848,12 @@
 		};
 		30FA2E8F1F63CF1D009D6C38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4D0D3026E7D9EE2146B2B5 /* Pods-TvMaze.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3K8D743CZF;
+				GCC_PREFIX_HEADER = /Users/saeed/Documents/Programing/Git/TvMaze/TvMaze/Global/PrefixHeader.pch;
 				INFOPLIST_FILE = TvMaze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquila.TvMaze;
@@ -437,9 +863,12 @@
 		};
 		30FA2E901F63CF1D009D6C38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CE9EEDA378091A3906A9D5 /* Pods-TvMaze.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3K8D743CZF;
+				GCC_PREFIX_HEADER = /Users/saeed/Documents/Programing/Git/TvMaze/TvMaze/Global/PrefixHeader.pch;
 				INFOPLIST_FILE = TvMaze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquila.TvMaze;
@@ -449,6 +878,7 @@
 		};
 		30FA2E921F63CF1D009D6C38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943DA25B44178D68ECCE4A35 /* Pods-TvMazeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3K8D743CZF;
@@ -462,6 +892,7 @@
 		};
 		30FA2E931F63CF1D009D6C38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2490FDDC7591E2E93364AC38 /* Pods-TvMazeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3K8D743CZF;
@@ -475,6 +906,7 @@
 		};
 		30FA2E951F63CF1D009D6C38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B16868F3AC511DD5586862 /* Pods-TvMazeUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3K8D743CZF;
 				INFOPLIST_FILE = TvMazeUITests/Info.plist;
@@ -487,6 +919,7 @@
 		};
 		30FA2E961F63CF1D009D6C38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7402C2EF90284C5D3A0E47 /* Pods-TvMazeUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3K8D743CZF;
 				INFOPLIST_FILE = TvMazeUITests/Info.plist;
@@ -516,6 +949,7 @@
 				30FA2E901F63CF1D009D6C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30FA2E911F63CF1D009D6C38 /* Build configuration list for PBXNativeTarget "TvMazeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +958,7 @@
 				30FA2E931F63CF1D009D6C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30FA2E941F63CF1D009D6C38 /* Build configuration list for PBXNativeTarget "TvMazeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,8 +967,22 @@
 				30FA2E961F63CF1D009D6C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3014DD3F1F64074C0065424B /* TvMaze.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3014DD401F64074C0065424B /* TvMaze.xcdatamodel */,
+			);
+			currentVersion = 3014DD401F64074C0065424B /* TvMaze.xcdatamodel */;
+			path = TvMaze.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 30FA2E591F63CF1D009D6C38 /* Project object */;
 }

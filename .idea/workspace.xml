@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df5ab48b-e5a1-4b61-935c-1547ecb75ee6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_comment.imageset/ic_comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_drawer.imageset/ic_drawer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_like.imageset/ic_like.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_menu.imageset/ic_menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_play.imageset/ic_play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_search.imageset/ic_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_comment.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_drawer.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_like.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_menu.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_play.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/ic_search.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Controls/ViewPager/ViewPagerController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Controls/ViewPager/ViewPagerController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/CoreData/DBManager/GenreDBManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/CoreData/DBManager/GenreDBManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/CoreData/DBManager/ShowDBManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/CoreData/DBManager/ShowDBManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/CoreData/DatabaseInterface.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/CoreData/DatabaseInterface.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/CoreData/DatabaseManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/CoreData/DatabaseManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/CoreData/TvMaze.xcdatamodeld/TvMaze.xcdatamodel/contents" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Global/Global.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Global/HeaderViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Global/HeaderViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Global/PrefixHeader.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Global/UtilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Global/UtilityManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/MovieList/CategoryListViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/MovieList/CategoryListViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/MovieList/MovieListViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/MovieList/MovieListViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/MovieList/MovieTableViewCell.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/MovieList/MovieTableViewCell.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/NetworkService/Core/NetworkInterface.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/NetworkService/Core/NetworkInterface.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/NetworkService/Services/GetAllShow.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/NetworkService/Services/GetAllShow.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TvMaze/Resource/TvMaze-Swift.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TvMaze.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/TvMaze.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TvMaze.xcodeproj/xcuserdata/saeed.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/TvMaze.xcodeproj/xcuserdata/saeed.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TvMaze/AppDelegate.h" afterPath="$PROJECT_DIR$/TvMaze/AppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TvMaze/AppDelegate.m" afterPath="$PROJECT_DIR$/TvMaze/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TvMaze/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/TvMaze/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TvMaze/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/TvMaze/Base.lproj/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TvMaze/Info.plist" afterPath="$PROJECT_DIR$/TvMaze/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TvMaze/ViewController.m" afterPath="$PROJECT_DIR$/TvMaze/ViewController.m" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MovieListViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TvMaze/MovieList/MovieListViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="626">
+              <caret line="99" column="53" lean-forward="false" selection-start-line="99" selection-start-column="53" selection-end-line="99" selection-end-column="53" />
+              <folding>
+                <element signature="e#132#167#0" expanded="true" />
+                <marker date="1504967342000" expanded="true" signature="3198:3218" ph="{...}" />
+                <marker date="1504967342000" expanded="true" signature="3373:4069" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkInterface.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TvMaze/NetworkService/Core/NetworkInterface.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowDBManager.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TvMaze/CoreData/DBManager/ShowDBManager.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryListViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TvMaze/MovieList/CategoryListViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TvMaze/MovieList/MovieListViewController.m" />
+        <option value="$PROJECT_DIR$/TvMaze/NetworkService/Core/NetworkInterface.m" />
+        <option value="$PROJECT_DIR$/TvMaze/CoreData/DBManager/ShowDBManager.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="17" />
+    <option name="y" value="23" />
+    <option name="width" value="1603" />
+    <option name="height" value="936" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TvMaze" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TvMaze" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TvMaze" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TvMaze" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TvMaze" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NetworkService" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TvMaze" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TvMaze" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MovieList" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TvMaze">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TvMaze" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TvMaze" TARGET_NAME="TvMaze" CONFIG_NAME="Debug" SCHEME_NAME="TvMaze" RUN_TARGET_PROJECT_NAME="TvMaze" RUN_TARGET_NAME="TvMaze" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.TvMaze" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df5ab48b-e5a1-4b61-935c-1547ecb75ee6" name="Default" comment="" />
+      <created>1504943297844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504943297844</updated>
+      <workItem from="1504943300563" duration="1453000" />
+      <workItem from="1504951506917" duration="2849000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4302000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="17" y="23" width="1603" height="936" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24953213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TvMaze/MovieList/CategoryListViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TvMaze/MovieList/MovieListViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="99" column="53" lean-forward="false" selection-start-line="99" selection-start-column="53" selection-end-line="99" selection-end-column="53" />
+          <folding>
+            <element signature="e#132#167#0" expanded="true" />
+            <marker date="1504967342000" expanded="true" signature="3198:3218" ph="{...}" />
+            <marker date="1504967342000" expanded="true" signature="3373:4069" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TvMaze/NetworkService/Core/NetworkInterface.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TvMaze/CoreData/DBManager/ShowDBManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
