@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -491,11 +491,39 @@
         <scene sceneID="ewV-Kl-Rjf">
             <objects>
                 <viewController id="KtW-gm-4I2" customClass="MovieListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mlo-EB-Urk"/>
+                        <viewControllerLayoutGuide type="bottom" id="eBP-cd-rYx"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KUB-1A-bzf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="599"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" alpha="0.40000000596046448" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aa3-ED-V92">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="599"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="jmC-5b-5Rr">
+                                        <rect key="frame" x="169" y="281" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="jmC-5b-5Rr" firstAttribute="centerY" secondItem="aa3-ED-V92" secondAttribute="centerY" id="PnD-rd-j2M"/>
+                                    <constraint firstItem="jmC-5b-5Rr" firstAttribute="centerX" secondItem="aa3-ED-V92" secondAttribute="centerX" id="dLn-b4-2yy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="aa3-ED-V92" secondAttribute="bottom" id="2Cl-f4-gue"/>
+                            <constraint firstAttribute="trailing" secondItem="aa3-ED-V92" secondAttribute="trailing" id="NJc-dE-12w"/>
+                            <constraint firstItem="aa3-ED-V92" firstAttribute="leading" secondItem="KUB-1A-bzf" secondAttribute="leading" id="Utr-lq-xrP"/>
+                            <constraint firstItem="aa3-ED-V92" firstAttribute="top" secondItem="KUB-1A-bzf" secondAttribute="top" id="igZ-3F-l9f"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="vwLoading" destination="aa3-ED-V92" id="wge-0s-kz2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Yw-h6-4al" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -505,6 +533,10 @@
         <scene sceneID="Twn-YO-2jg">
             <objects>
                 <viewController id="0o4-PF-AXB" customClass="NowPlayingInfoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5tV-vr-7bn"/>
+                        <viewControllerLayoutGuide type="bottom" id="DwK-Qx-oal"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="n1X-ZL-9Kc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -584,6 +616,6 @@
         <image name="ic_search" width="26" height="26"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Yja-re-3xR"/>
+        <segue reference="NOn-pl-W5n"/>
     </inferredMetricsTieBreakers>
 </document>

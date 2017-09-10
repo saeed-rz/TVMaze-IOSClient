@@ -30,6 +30,7 @@
 
 -(void) Init
 {
+    [self.vwLoading setHidden:NO];
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(getAllShowSuccessfullty:) name:GetAllShowSucceedNotification object:nil];
     self.delegate = self;
@@ -43,6 +44,7 @@
 
 -(void) getAllShowSuccessfullty:(NSNotification *) notif
 {
+    [self.vwLoading setHidden:YES];
     NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc]
                                         initWithKey: @"genreTitle" ascending: YES];
     self.allGenre = [DatabaseManager getAllObjectsForEntityName:@"Genre" withSortDescriptors:[NSArray arrayWithObject:sortDescriptor] andPredicate:nil];

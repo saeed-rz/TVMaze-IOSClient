@@ -12,6 +12,7 @@
 @interface MovieListViewController : ViewPagerController <ViewPagerDelegate, ViewPagerDataSource>
 
 
+@property (weak, nonatomic) IBOutlet UIView *vwLoading;
 @property NSArray *allGenre;
 
 @end
