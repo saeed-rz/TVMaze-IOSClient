@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Show+CoreDataClass.h"
+#import "NowPlayingInfoViewController.h"
 
 @interface NowPlayingViewController : UIViewController
 
@@ -24,5 +25,5 @@
 
 @property NSInteger showId;
 @property Show *show;
-
+@property NowPlayingInfoViewController *nowPlayingInfo;
 @end

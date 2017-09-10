@@ -41,7 +41,8 @@
     
     
     NSArray *crews = [DatabaseManager getAllObjectsForEntityName:@"Crew" withSortDescriptors:nil andPredicate:nil];
-    
+    if(crews.count == 0)
+        return;
     Crew *crew1 = [crews objectAtIndex:0];
     Crew *crew2 = [crews objectAtIndex:1];
     

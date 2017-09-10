@@ -13,7 +13,7 @@
 #import "GetCastShow.h"
 #import "GetCrewShow.h"
 #import "Crew+CoreDataClass.h"
-#import "NowPlayingInfoViewController.h"
+
 #import "HeaderViewController.h"
 
 @interface NowPlayingViewController ()
@@ -70,6 +70,8 @@
     
     crew = [crews objectAtIndex:1];
     [self.lblWriter setText:[NSString stringWithFormat:@"%@: %@",crew.crewRole,crew.crewTitle]];
+    
+    [self.nowPlayingInfo reloadData];
 }
 
 
@@ -80,9 +82,9 @@
 {
     if([segue.identifier isEqualToString:@"infoSegue"])
     {
-        NowPlayingInfoViewController *vc = segue.destinationViewController;
+        self.nowPlayingInfo = segue.destinationViewController;
         
-        vc.showId = self.showId;
+        self.nowPlayingInfo.showId = self.showId;
     }
     if([segue.identifier isEqualToString:@"headerSegue"])
     {
