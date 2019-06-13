@@ -3,7 +3,7 @@ TVMaze IOS Client
 
 Base Api Address : http://www.tvmaze.com/api
 
-Main Page
+Main Page .  
 ![Screen Shot for Main Page](https://github.com/saeed-rz/TVMaze-IOSClient/blob/master/iOS-GoMovies.png?raw=true) . 
 
 Movie Detail Page  
